@@ -38,24 +38,24 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {d
 }
 @font-face {
     font-family: 'lato';
-    src: url('fonts/lato/latoregular.woff2') format('woff2'),
-    url('fonts/lato/latoregular.woff') format('woff');
+    src: url('../fonts/lato/latoregular.woff2') format('woff2'),
+    url('../fonts/lato/latoregular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'lato';
-    src: url('fonts/lato/latobold.woff2') format('woff2'),
-    url('fonts/lato/latobold.woff') format('woff');
+    src: url('../fonts/lato/latobold.woff2') format('woff2'),
+    url('../fonts/lato/latobold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'lato';
-    src: url('fonts/lato/latoitalic.woff2') format('woff2'),
-    url('fonts/lato/latoitalic.woff') format('woff');
+    src: url('../fonts/lato/latoitalic.woff2') format('woff2'),
+    url('../fonts/lato/latoitalic.woff') format('woff');
     font-weight: italic;
     font-style: normal;
     font-display: swap;
@@ -169,11 +169,11 @@ template {
     margin-bottom: 80px;
 }
 .headers-h2::before{
-    content: url('img/header-decor.png');
+    content: url('../img/header-decor.png');
     margin-right: 80px;
 }
 .headers-h2::after{
-    content: url('img/header-decor.png');
+    content: url('../img/header-decor.png');
     margin-left: 80px;
 }
 .collection-items{
