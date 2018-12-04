@@ -216,6 +216,7 @@ template {
 }
 /*customers*/
 .customers-block{
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -230,7 +231,7 @@ template {
     width: 100vw;
     display: block;
     background-color: inherit;
-    position: relative;
+    position: absolute;
     top: 0;
     z-index: -1;
     margin: auto;
