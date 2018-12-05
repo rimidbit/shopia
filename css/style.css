@@ -176,6 +176,68 @@ template {
     content: url('../img/header-decor.png');
     margin-left: 80px;
 }
+
+.header__top-line{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: Lato;
+    background-color: #f2f2f2;
+
+}
+.header__top-line__icon{
+    font-size: 1em;
+}
+.header__top-line__nav{
+    color: #5d5d5d;
+}
+.header__top-line__nav a{
+    padding: 10px 20px;
+    border-right: 1px solid #5d5d5d;
+}
+.header__general__nav{
+    font-family: "Playfair Display";
+    font-size: 1.4em;
+    margin: 15px 5px;
+}
+.header__general__nav a{
+    padding-right: 20px;
+    color: #000;
+}
+.header__general__logo h1{
+    font-family: Krinkes Decor PERSONAL USE;
+    font-size: 7em;
+    color: #000;
+    font-weight: bold;
+}
+.header__general{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.header__general__social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+}
+.header__general__social-button img{
+    margin-right: 5px;
+}
+.header__general__button a{
+    margin-left: 40px;
+    display: block;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #ffffff;
+}
+/*header end*/
 .collection-items{
     display: -webkit-box;
     display: -ms-flexbox;
