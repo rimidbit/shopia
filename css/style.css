@@ -270,7 +270,7 @@ template {
     left: 50px;
     z-index: 1;
     font-size: 1.6em;
-    border-bottom: 100px solid #000000;
+    border-bottom: 45px solid #000000;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     height: 20px;
